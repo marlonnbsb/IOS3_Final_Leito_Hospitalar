@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>244520372772-kvq0ug1r4hakhqg69u6fkmqd6ran4jr8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.244520372772-kvq0ug1r4hakhqg69u6fkmqd6ran4jr8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACj0yvGTHN_S3sQMP6b1XiLj9cgUIBSCU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>244520372772</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MMS.IOS3-COVID-FINAL</string>
+	<key>PROJECT_ID</key>
+	<string>leitos-hospitalares</string>
+	<key>STORAGE_BUCKET</key>
+	<string>leitos-hospitalares.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:244520372772:ios:5553b52b8d98340dca26b1</string>
+</dict>
+</plist>

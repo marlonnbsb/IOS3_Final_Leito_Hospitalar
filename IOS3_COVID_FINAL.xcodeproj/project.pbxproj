@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37315F1326C1DD3000E9F81A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37315F1226C1DD3000E9F81A /* GoogleService-Info.plist */; };
 		373B32DA26C188FF00245A4E /* ApresentacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */; };
-		373B32DC26C1C6F100245A4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */; };
 		379C5FB726C0D56C00E25B6F /* LeitosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */; };
 		379C5FB926C16B4800E25B6F /* LeitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C5FB826C16B4800E25B6F /* LeitosViewController.swift */; };
 		37AEEB6E26C0965C00A10B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AEEB6D26C0965C00A10B27 /* AppDelegate.swift */; };
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		2C820D4B84F20DEE54E4F28B /* Pods-IOS3_COVID_FINAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS3_COVID_FINAL.debug.xcconfig"; path = "Target Support Files/Pods-IOS3_COVID_FINAL/Pods-IOS3_COVID_FINAL.debug.xcconfig"; sourceTree = "<group>"; };
+		37315F1226C1DD3000E9F81A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApresentacaoViewController.swift; sourceTree = "<group>"; };
-		373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeitosTableViewCell.swift; sourceTree = "<group>"; };
 		379C5FB826C16B4800E25B6F /* LeitosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeitosViewController.swift; sourceTree = "<group>"; };
 		37AEEB6A26C0965C00A10B27 /* Leito Hospitalar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leito Hospitalar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +106,8 @@
 				379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */,
 				379C5FB826C16B4800E25B6F /* LeitosViewController.swift */,
 				373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */,
-				373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */,
 				37AF9B4526C1CB3C003B25B7 /* LoginViewController.swift */,
+				37315F1226C1DD3000E9F81A /* GoogleService-Info.plist */,
 			);
 			path = IOS3_COVID_FINAL;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AEEB7A26C0965E00A10B27 /* LaunchScreen.storyboard in Resources */,
-				373B32DC26C1C6F100245A4E /* GoogleService-Info.plist in Resources */,
+				37315F1326C1DD3000E9F81A /* GoogleService-Info.plist in Resources */,
 				37AEEB7726C0965E00A10B27 /* Assets.xcassets in Resources */,
 				37AEEB7526C0965C00A10B27 /* Main.storyboard in Resources */,
 			);
