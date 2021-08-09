@@ -1,0 +1,6 @@
+framework module Pods_IOS3_COVID_FINAL {
+  umbrella header "Pods-IOS3_COVID_FINAL-umbrella.h"
+
+  export *
+  module * { export * }
+}
