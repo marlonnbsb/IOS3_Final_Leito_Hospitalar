@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     
     func configBotao() {
         self.btnEscolher.backgroundColor = .clear
-        self.btnEscolher.layer.cornerRadius = 5
+        self.btnEscolher.layer.cornerRadius = 25
         self.btnEscolher.layer.borderWidth = 1
         self.btnEscolher.layer.borderColor = UIColor.black.cgColor
         self.btnEscolher.setTitleColor(UIColor.black, for: .normal)

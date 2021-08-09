@@ -7,4 +7,6 @@ target 'IOS3_COVID_FINAL' do
 
   # Pods for IOS3_COVID_FINAL
 pod “Alamofire”
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
 end

@@ -25,15 +25,9 @@ class ApresentacaoViewController: UIViewController {
         self.navigationItem.setHidesBackButton(true, animated: true)
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.navigationItem.setHidesBackButton(true, animated: true)
-    }
-    
     func configBotao() {
         self.btnComecar.backgroundColor = .clear
-        self.btnComecar.layer.cornerRadius = 5
+        self.btnComecar.layer.cornerRadius = 25
         self.btnComecar.layer.borderWidth = 1
         self.btnComecar.layer.borderColor = UIColor.black.cgColor
         self.btnComecar.setTitleColor(UIColor.black, for: .normal)

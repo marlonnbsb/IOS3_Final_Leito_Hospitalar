@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		373B32DA26C188FF00245A4E /* ApresentacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */; };
+		373B32DC26C1C6F100245A4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */; };
 		379C5FB726C0D56C00E25B6F /* LeitosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */; };
 		379C5FB926C16B4800E25B6F /* LeitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C5FB826C16B4800E25B6F /* LeitosViewController.swift */; };
 		37AEEB6E26C0965C00A10B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AEEB6D26C0965C00A10B27 /* AppDelegate.swift */; };
@@ -18,12 +19,14 @@
 		37AEEB7A26C0965E00A10B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AEEB7826C0965E00A10B27 /* LaunchScreen.storyboard */; };
 		37AEEB8326C0984100A10B27 /* CovidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AEEB8226C0984100A10B27 /* CovidModel.swift */; };
 		37AEEB8526C09A3700A10B27 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AEEB8426C09A3700A10B27 /* APIManager.swift */; };
+		37AF9B4626C1CB3C003B25B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF9B4526C1CB3C003B25B7 /* LoginViewController.swift */; };
 		43FE3C64FA5B0FD43460CD99 /* Pods_IOS3_COVID_FINAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35B4700417731848128E702 /* Pods_IOS3_COVID_FINAL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C820D4B84F20DEE54E4F28B /* Pods-IOS3_COVID_FINAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS3_COVID_FINAL.debug.xcconfig"; path = "Target Support Files/Pods-IOS3_COVID_FINAL/Pods-IOS3_COVID_FINAL.debug.xcconfig"; sourceTree = "<group>"; };
 		373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApresentacaoViewController.swift; sourceTree = "<group>"; };
+		373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeitosTableViewCell.swift; sourceTree = "<group>"; };
 		379C5FB826C16B4800E25B6F /* LeitosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeitosViewController.swift; sourceTree = "<group>"; };
 		37AEEB6A26C0965C00A10B27 /* Leito Hospitalar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leito Hospitalar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +39,7 @@
 		37AEEB7B26C0965E00A10B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37AEEB8226C0984100A10B27 /* CovidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidModel.swift; sourceTree = "<group>"; };
 		37AEEB8426C09A3700A10B27 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		37AF9B4526C1CB3C003B25B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A35B4700417731848128E702 /* Pods_IOS3_COVID_FINAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS3_COVID_FINAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14F490AD83D71927E1BECEB /* Pods-IOS3_COVID_FINAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS3_COVID_FINAL.release.xcconfig"; path = "Target Support Files/Pods-IOS3_COVID_FINAL/Pods-IOS3_COVID_FINAL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +106,8 @@
 				379C5FB626C0D56C00E25B6F /* LeitosTableViewCell.swift */,
 				379C5FB826C16B4800E25B6F /* LeitosViewController.swift */,
 				373B32D926C188FF00245A4E /* ApresentacaoViewController.swift */,
+				373B32DB26C1C6F100245A4E /* GoogleService-Info.plist */,
+				37AF9B4526C1CB3C003B25B7 /* LoginViewController.swift */,
 			);
 			path = IOS3_COVID_FINAL;
 			sourceTree = "<group>";
@@ -174,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AEEB7A26C0965E00A10B27 /* LaunchScreen.storyboard in Resources */,
+				373B32DC26C1C6F100245A4E /* GoogleService-Info.plist in Resources */,
 				37AEEB7726C0965E00A10B27 /* Assets.xcassets in Resources */,
 				37AEEB7526C0965C00A10B27 /* Main.storyboard in Resources */,
 			);
@@ -228,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37AF9B4626C1CB3C003B25B7 /* LoginViewController.swift in Sources */,
 				373B32DA26C188FF00245A4E /* ApresentacaoViewController.swift in Sources */,
 				37AEEB7226C0965C00A10B27 /* ViewController.swift in Sources */,
 				37AEEB8326C0984100A10B27 /* CovidModel.swift in Sources */,
